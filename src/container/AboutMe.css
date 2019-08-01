@@ -1,0 +1,41 @@
+.bioSection {
+  /* background-color: pink; */
+  display: flex;
+}
+
+.bioSectionLeft {
+  /* background-color: yellow; */
+  max-width: 400px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bioSectionRight {
+  /* background-color: lightblue; */
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+div.bioSectionLeft > img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: -10px -10px white;
+} 
+
+/* Media queries –––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 800px) {
+
+  .bioSection {
+    flex-direction: column;
+  }
+
+  .bioSectionRight {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+}

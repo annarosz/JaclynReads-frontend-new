@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* –––––––––––––––––––––––––– */
+
+.container {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.containerSecondary {
+  background-color: grey;
+  min-height: 90vh;
+  padding: 80px;
+}
+
+/* ––––––––– Typography –––––––––––––––– */
+
+
+h1 {
+  color: #4F4F4F;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 600;
+  font-size: 33pt;
+  padding-bottom: 30px;
+  max-width: 1000px;
+}
+
+h2 {
+  color: #4F4F4F;
+  font-family: 'Noto Serif JP', serif; 
+  font-weight: 400; 
+  font-size: 24pt;
+  max-width: 1000px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #4F4F4F;
+  font-family: 'Noto Serif JP', serif; 
+  font-weight: 400; 
+  font-size: 18pt;
+}
+
+p {
+  color: #4F4F4F;
+  font-family: 'Noto Serif JP', serif; 
+  font-size: 12pt;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+p.cardTitle {
+  color: #4F4F4F;
+  font-family: 'Noto Serif JP', serif; 
+  font-size: 14pt;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+/* buttons */
+
+/* edit delete showadmin page  */
+
+a {
+  color: #138B8A;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 9pt;
+  line-height: 12pt;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+button {
+  color: #138B8A;  
+  border: none;
+  display: flex;
+  cursor: pointer;
+  /* margin: 5px; */
+  outline: none;
+}
+
+.outlineButton {
+  height: 20px;
+  text-decoration: none;
+  border: solid 1px #138B8A;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  height: 20px;
+  width: 80px;
+  text-decoration: none;
+  border: solid 1px #138B8A;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+   
+.genreButton {
+  color: #4F4F4F;
+  max-width: 320px;
+  max-height: 30px;
+  font-family: 'Noto Serif JP', serif; 
+  font-weight: 400; 
+  font-size: 19pt;
+  text-decoration: none;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+a:hover,
+a:active {
+  color: orange;
+}
+
+.outlineButton:hover,
+.outlineButton:active {
+  border: solid 1px orange;
+}
+
+.genreButton:hover,
+.genreButton:active {
+  color: orange;
+}
+
+.edit:hover,
+.edit:active {
+  color: orange;
+  border: solid 1px orange;
+}
+
+/* Media queries –––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 550px) {
+
+  .containerSecondary {
+    padding: 30px;
+  }
+
+}

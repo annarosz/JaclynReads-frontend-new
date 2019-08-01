@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormInput /> displays loading when no review in list 1`] = `
+<Fragment>
+  <div
+    className="form-group"
+  >
+    <label
+      className="form-label"
+    />
+    <input
+      className="form-control"
+      min="1999"
+      noValidate={true}
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`<FormInput /> props are displayed in input fields 1`] = `
+<Fragment>
+  <div
+    className="form-group"
+  >
+    <label
+      className="form-label"
+      htmlFor="Three Little Pigs"
+    />
+    <input
+      className="form-control"
+      id="Three Little Pigs"
+      min="1999"
+      name="Three Little Pigs"
+      noValidate={true}
+      onChange="handleChange"
+      type="type"
+      value="value"
+    />
+  </div>
+</Fragment>
+`;

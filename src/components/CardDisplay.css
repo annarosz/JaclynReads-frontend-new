@@ -1,0 +1,40 @@
+.cardDisplay {
+  /* background-color: wheat; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+}
+
+.cardContainer {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer:nth-of-type(7n) {
+  background-color: #D3E3F2;
+}
+
+.cardContainer:nth-of-type(7n+1) {
+  background-color: #FCE8B3;
+}
+
+.cardContainer:nth-of-type(7n+2) {
+  background-color: #FFF38A;
+}
+
+.cardContainer:nth-of-type(7n+3) {
+  background-color: #E7FBAD;
+}
+
+.cardContainer:nth-of-type(7n+4) {
+  background-color: #FCDFDF;
+}
+
+.cardContainer:nth-of-type(7n+5) {
+  background-color: #BFE9E1;
+}
+
+.cardContainer:nth-of-type(7n+6) {
+  background-color: #E1DEC3;
+}

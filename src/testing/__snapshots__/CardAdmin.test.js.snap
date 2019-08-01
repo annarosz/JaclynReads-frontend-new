@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardAdmin /> displays loading when no review in list 1`] = `
+<div
+  className="cardAdmin"
+>
+  <div
+    className="cardAdminLeft"
+  >
+    <div
+      className="cardAdminLeftTop"
+    >
+      <img />
+    </div>
+    <div
+      className="cardAdminLeftBottom"
+    >
+      <button
+        className="edit"
+        onClick={[Function]}
+      >
+         Edit
+      </button>
+      <button
+        className="delete"
+        onClick={[Function]}
+      >
+         Delete
+      </button>
+    </div>
+  </div>
+  <div
+    className="cardAdminRight"
+  >
+    <p>
+      Title: 
+    </p>
+    <p>
+      Author: 
+    </p>
+    <p>
+      Review: 
+    </p>
+    <p>
+      Publisher: 
+    </p>
+    <p>
+      Year Published: 
+    </p>
+    <p>
+      Genre: 
+    </p>
+    <p>
+      ISBN: 
+    </p>
+    <p>
+      URL to buy: 
+    </p>
+    <p>
+      SEO Keywords: 
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<CardAdmin /> displays title in title field and author in author filed in CardAdmin.js 1`] = `
+<div
+  class="cardAdmin"
+>
+  <div
+    class="cardAdminLeft"
+  >
+    <div
+      class="cardAdminLeftTop"
+    >
+      <img
+        alt="Three Little Pigs"
+      />
+    </div>
+    <div
+      class="cardAdminLeftBottom"
+    >
+      <button
+        class="edit"
+      >
+         Edit
+      </button>
+      <button
+        class="delete"
+      >
+         Delete
+      </button>
+    </div>
+  </div>
+  <div
+    class="cardAdminRight"
+  >
+    <p>
+      Title: Three Little Pigs
+    </p>
+    <p>
+      Author: Big Bad Wolf
+    </p>
+    <p>
+      Review: 
+    </p>
+    <p>
+      Publisher: 
+    </p>
+    <p>
+      Year Published: 
+    </p>
+    <p>
+      Genre: 
+    </p>
+    <p>
+      ISBN: 
+    </p>
+    <p>
+      URL to buy: 
+    </p>
+    <p>
+      SEO Keywords: 
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<CardAdmin /> renders .cardLeft  1`] = `null`;
+
+exports[`<CardAdmin /> renders CardAdmin component  1`] = `
+<div
+  className="cardAdmin"
+>
+  <div
+    className="cardAdminLeft"
+  >
+    <div
+      className="cardAdminLeftTop"
+    >
+      <img />
+    </div>
+    <div
+      className="cardAdminLeftBottom"
+    >
+      <button
+        className="edit"
+        onClick={[Function]}
+      >
+         Edit
+      </button>
+      <button
+        className="delete"
+        onClick={[Function]}
+      >
+         Delete
+      </button>
+    </div>
+  </div>
+  <div
+    className="cardAdminRight"
+  >
+    <p>
+      Title: 
+    </p>
+    <p>
+      Author: 
+    </p>
+    <p>
+      Review: 
+    </p>
+    <p>
+      Publisher: 
+    </p>
+    <p>
+      Year Published: 
+    </p>
+    <p>
+      Genre: 
+    </p>
+    <p>
+      ISBN: 
+    </p>
+    <p>
+      URL to buy: 
+    </p>
+    <p>
+      SEO Keywords: 
+    </p>
+  </div>
+</div>
+`;

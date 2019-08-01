@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowPage /> displays loading when no review in list 1`] = `
+<Fragment>
+  <h2>
+    Loading.......
+  </h2>
+  <Footer />
+</Fragment>
+`;

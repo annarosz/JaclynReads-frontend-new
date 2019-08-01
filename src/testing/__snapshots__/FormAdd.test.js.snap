@@ -1,0 +1,899 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormAdd /> displays the form 1`] = `
+<Fragment>
+  <div
+    className="formContainer"
+  >
+    <form
+      className="form-add"
+      encType="multipart/form-data"
+    >
+      <FormInput
+        handleChange={[Function]}
+        inputType="text"
+        name="title"
+        placeholder="Enter book name"
+        title="Book Title"
+        value=""
+      />
+       
+      <FormInput
+        handleChange={[Function]}
+        inputType="text"
+        name="author"
+        placeholder="Enter author name"
+        title="Author"
+        value=""
+      />
+       
+      <TextArea
+        handleChange={[Function]}
+        name="review"
+        placeholder="Enter your review"
+        rows={10}
+        title="Review"
+        value=""
+      />
+      <FormInput
+        handleChange={[Function]}
+        inputType="text"
+        name="publisher"
+        placeholder="Enter publisher"
+        title="Publisher"
+        value=""
+      />
+       
+      <FormInput
+        handleChange={[Function]}
+        inputType="number"
+        name="yearPublished"
+        placeholder="Published Year"
+        title="Year Published"
+        value="2019"
+      />
+       
+      <label
+        htmlFor="image-upload"
+      >
+        Upload Image
+      </label>
+      <input
+        id="image-load"
+        name="image-upload"
+        onChange={[Function]}
+        type="file"
+      />
+      <FormCheckbox
+        handleChange={[Function]}
+        name="genre"
+        options={
+          Array [
+            "Australian Fiction",
+            "Contemporary Fiction",
+            "Crime",
+            "Essays",
+            "Graphic Novels",
+            "In Translation",
+            "Memoir",
+            "Narrative Non-Fiction",
+            "Short Stories",
+            "Young Adult(YA)",
+          ]
+        }
+        selectedOptions={Array []}
+        title="Genre"
+      />
+       
+      <FormInput
+        handleChange={[Function]}
+        inputType="text"
+        name="isbn"
+        placeholder="Enter ISBN"
+        title="ISBN"
+        value=""
+      />
+       
+      <FormInput
+        handleChange={[Function]}
+        inputType="text"
+        name="linkToBuy"
+        placeholder="Enter URL"
+        title="Link to Buy"
+        value=""
+      />
+       
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="check"
+        >
+          Top Pick
+        </label>
+        <input
+          checked={false}
+          id="checkbox"
+          name="topPick"
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </div>
+      <FormInput
+        handleChange={[Function]}
+        inputType="text"
+        name="seoKeyword"
+        placeholder="Enter SEO Keywords"
+        title="Seo Keywords (Separate by comma)"
+        value=""
+      />
+       
+      <Button
+        action={[Function]}
+        title="Submit"
+        type="primary"
+      />
+       
+      <Button
+        action={[Function]}
+        title="Clear"
+        type="secondary"
+      />
+       
+      <Button
+        action={[Function]}
+        title="Cancel"
+        type="secondary"
+      />
+       
+    </form>
+  </div>
+</Fragment>
+`;
+
+exports[`<FormAdd /> fields are mounted 1`] = `
+<div
+  className="formContainer"
+>
+  <form
+    className="form-add"
+    encType="multipart/form-data"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="title"
+      >
+        Book Title
+      </label>
+      <input
+        className="form-control"
+        id="title"
+        min="1999"
+        name="title"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Enter book name"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="author"
+      >
+        Author
+      </label>
+      <input
+        className="form-control"
+        id="author"
+        min="1999"
+        name="author"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Enter author name"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+      >
+        Review
+      </label>
+      <textarea
+        className="form-control"
+        name="review"
+        onChange={[Function]}
+        placeholder="Enter your review"
+        rows={10}
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="publisher"
+      >
+        Publisher
+      </label>
+      <input
+        className="form-control"
+        id="publisher"
+        min="1999"
+        name="publisher"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Enter publisher"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="yearPublished"
+      >
+        Year Published
+      </label>
+      <input
+        className="form-control"
+        id="yearPublished"
+        min="1999"
+        name="yearPublished"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Published Year"
+        type="number"
+        value="2019"
+      />
+    </div>
+     
+    <label
+      htmlFor="image-upload"
+    >
+      Upload Image
+    </label>
+    <input
+      id="image-load"
+      name="image-upload"
+      onChange={[Function]}
+      type="file"
+    />
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="genre"
+      >
+        Genre
+      </label>
+      <div
+        className="checkbox"
+      >
+        <label
+          className="checkbox-inline"
+          key="Australian Fiction"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Australian Fiction"
+          />
+          Australian Fiction
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Contemporary Fiction"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Contemporary Fiction"
+          />
+          Contemporary Fiction
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Crime"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Crime"
+          />
+          Crime
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Essays"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Essays"
+          />
+          Essays
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Graphic Novels"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Graphic Novels"
+          />
+          Graphic Novels
+        </label>
+        <label
+          className="checkbox-inline"
+          key="In Translation"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="In Translation"
+          />
+          In Translation
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Memoir"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Memoir"
+          />
+          Memoir
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Narrative Non-Fiction"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Narrative Non-Fiction"
+          />
+          Narrative Non-Fiction
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Short Stories"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Short Stories"
+          />
+          Short Stories
+        </label>
+        <label
+          className="checkbox-inline"
+          key="Young Adult(YA)"
+        >
+          <input
+            checked={false}
+            id="genre"
+            name="genre"
+            noValidate={true}
+            onChange={[Function]}
+            type="checkbox"
+            value="Young Adult(YA)"
+          />
+          Young Adult(YA)
+        </label>
+      </div>
+    </div>
+     
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="isbn"
+      >
+        ISBN
+      </label>
+      <input
+        className="form-control"
+        id="isbn"
+        min="1999"
+        name="isbn"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Enter ISBN"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="linkToBuy"
+      >
+        Link to Buy
+      </label>
+      <input
+        className="form-control"
+        id="linkToBuy"
+        min="1999"
+        name="linkToBuy"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Enter URL"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="check"
+      >
+        Top Pick
+      </label>
+      <input
+        checked={false}
+        id="checkbox"
+        name="topPick"
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="seoKeyword"
+      >
+        Seo Keywords (Separate by comma)
+      </label>
+      <input
+        className="form-control"
+        id="seoKeyword"
+        min="1999"
+        name="seoKeyword"
+        noValidate={true}
+        onChange={[Function]}
+        placeholder="Enter SEO Keywords"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      className="btn btn-primary"
+      onClick={[Function]}
+    >
+      Submit
+    </div>
+     
+    <div
+      className="btn btn-secondary"
+      onClick={[Function]}
+    >
+      Clear
+    </div>
+     
+    <div
+      className="btn btn-secondary"
+      onClick={[Function]}
+    >
+      Cancel
+    </div>
+     
+  </form>
+</div>
+`;
+
+exports[`<FormAdd /> fields are rendered 1`] = `
+<div
+  class="formContainer"
+>
+  <form
+    class="form-add"
+    enctype="multipart/form-data"
+  >
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="title"
+      >
+        Book Title
+      </label>
+      <input
+        class="form-control"
+        id="title"
+        min="1999"
+        name="title"
+        novalidate=""
+        placeholder="Enter book name"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="author"
+      >
+        Author
+      </label>
+      <input
+        class="form-control"
+        id="author"
+        min="1999"
+        name="author"
+        novalidate=""
+        placeholder="Enter author name"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+      >
+        Review
+      </label>
+      <textarea
+        class="form-control"
+        name="review"
+        placeholder="Enter your review"
+        rows="10"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="publisher"
+      >
+        Publisher
+      </label>
+      <input
+        class="form-control"
+        id="publisher"
+        min="1999"
+        name="publisher"
+        novalidate=""
+        placeholder="Enter publisher"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="yearPublished"
+      >
+        Year Published
+      </label>
+      <input
+        class="form-control"
+        id="yearPublished"
+        min="1999"
+        name="yearPublished"
+        novalidate=""
+        placeholder="Published Year"
+        type="number"
+        value="2019"
+      />
+    </div>
+     
+    <label
+      for="image-upload"
+    >
+      Upload Image
+    </label>
+    <input
+      id="image-load"
+      name="image-upload"
+      type="file"
+    />
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="genre"
+      >
+        Genre
+      </label>
+      <div
+        class="checkbox"
+      >
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Australian Fiction"
+          />
+          Australian Fiction
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Contemporary Fiction"
+          />
+          Contemporary Fiction
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Crime"
+          />
+          Crime
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Essays"
+          />
+          Essays
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Graphic Novels"
+          />
+          Graphic Novels
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="In Translation"
+          />
+          In Translation
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Memoir"
+          />
+          Memoir
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Narrative Non-Fiction"
+          />
+          Narrative Non-Fiction
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Short Stories"
+          />
+          Short Stories
+        </label>
+        <label
+          class="checkbox-inline"
+        >
+          <input
+            id="genre"
+            name="genre"
+            novalidate=""
+            type="checkbox"
+            value="Young Adult(YA)"
+          />
+          Young Adult(YA)
+        </label>
+      </div>
+    </div>
+     
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="isbn"
+      >
+        ISBN
+      </label>
+      <input
+        class="form-control"
+        id="isbn"
+        min="1999"
+        name="isbn"
+        novalidate=""
+        placeholder="Enter ISBN"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="linkToBuy"
+      >
+        Link to Buy
+      </label>
+      <input
+        class="form-control"
+        id="linkToBuy"
+        min="1999"
+        name="linkToBuy"
+        novalidate=""
+        placeholder="Enter URL"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      class="form-group"
+    >
+      <label
+        for="check"
+      >
+        Top Pick
+      </label>
+      <input
+        id="checkbox"
+        name="topPick"
+        type="checkbox"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="seoKeyword"
+      >
+        Seo Keywords (Separate by comma)
+      </label>
+      <input
+        class="form-control"
+        id="seoKeyword"
+        min="1999"
+        name="seoKeyword"
+        novalidate=""
+        placeholder="Enter SEO Keywords"
+        type="text"
+        value=""
+      />
+    </div>
+     
+    <div
+      class="btn btn-primary"
+    >
+      Submit
+    </div>
+     
+    <div
+      class="btn btn-secondary"
+    >
+      Clear
+    </div>
+     
+    <div
+      class="btn btn-secondary"
+    >
+      Cancel
+    </div>
+     
+  </form>
+</div>
+`;

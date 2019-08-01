@@ -1,0 +1,60 @@
+.toolbar {
+  background-color: white;
+  margin-bottom: 0px;
+  padding: 0px 20px;
+  position: sticky; top: 0;
+  height: 10vh;
+  width: 100vw;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLeft {
+  height: 60px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  /* background-color: darkcyan; */
+  border-radius: 100%;
+  margin-right: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.navRight {
+  height: 60px;
+  width: 560px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navRightAdmin {
+  height: 60px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ____________ */
+
+@media (max-width: 1050px) {
+  .navRight {
+    display: none;
+  }
+}
+
+@media (min-width: 1051px) {
+  .toolbar_toggle_button {
+    display: none;
+  }
+
+}

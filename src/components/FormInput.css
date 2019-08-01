@@ -1,0 +1,44 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  /* background-color: pink; */
+}
+
+.form-control {
+  /* background-color: white; */
+  min-width: 200px;
+  max-width: 600px;
+  height: 50px;
+  border: 0px;
+  outline: none;
+  padding: 10px;
+  /* top /right / bottom / left */
+  margin: 5px 0px 15px 0px;
+}
+
+.input {
+  background-color: lavender;
+}
+
+input[type=text] {
+  background-color: white;
+  /* border: solid 0.5pt #138B8A; */
+  /* border-radius: 30px; */
+}
+
+.searchBorder {
+  min-width: 180px;
+  border: solid 1px #138B8A;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#publisher {
+  width: 250px;
+  height: 50px;
+}
+
+#year {
+  width: 250px;
+  height: 50px;
+}

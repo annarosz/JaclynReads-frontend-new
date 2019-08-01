@@ -1,0 +1,40 @@
+.containerGenre {
+  /* background-color: lightblue; */
+  padding-top: 80px;
+  padding-left: 80px;
+  min-height: 25vh;
+}
+
+.genreButtonContainer {
+  /* background-color: wheat; */
+  padding-left: 80px;
+  min-height: 25vh;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.genreButtonContainerLeft {
+  /* background-color: pink; */
+  padding-right: 60px;
+}
+
+.genreButtonContainerRight {
+  /* background-color: yellow; */
+  padding-right: 60px;
+}
+
+/* Media queries –––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 550px) {
+
+  .containerGenre {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .genreButtonContainer{
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+}

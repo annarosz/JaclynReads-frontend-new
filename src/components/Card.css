@@ -1,0 +1,47 @@
+.card {
+  /* background-color: goldenrod; */
+  width: 320px;
+  height: 150px;
+  display: flex;
+}
+
+.cardLeft {
+  width: 110px;
+  /* background-color: yellow; */
+}
+
+.cardRight {
+  width: 200px;
+  padding-left: 20px;
+}
+
+.cardRightTop {
+  height: 110px;
+  /* background-color: yellow; */
+}
+
+.cardRightBottom {
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  /* background-color: blue; */
+}
+
+.topPickDiv {
+  display: flex;
+  /* background-color: pink; */
+  align-items: center;
+}
+
+div.cardLeft > img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: -10px -10px white;
+}
+
+/* Media queries –––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 550px) {
+
+
+}
