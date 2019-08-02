@@ -51,7 +51,7 @@ class ShowPage extends React.Component {
   }
 
   replaceSpecialCharsInURL(str) {
-    str = str.replace("%20", " ");
+    const str = decodeURI(uri); 
     return str;
   }
 
