@@ -1,6 +1,6 @@
 import React from "react";
 import './Card.css';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 function Card(props) {
 
@@ -22,7 +22,8 @@ return (
 
         </div>
         <div className="cardRightBottom">
-          <Link className="outlineButton" to={'/show/' + props.review.props.children.props.title}>Read more</Link>
+          <a className="outlineButton" href={'/show/' + props.review.props.children.props.title}  >A tag Read More</a>
+          {/* <Link className="outlineButton" to={'/show/' + props.review.props.children.props.title} onClick={props.getReviews}>Read more</Link> */}
         </div>
       </div>
     </div>

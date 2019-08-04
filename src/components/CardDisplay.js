@@ -9,7 +9,7 @@ function CardDisplay(props) {
       {props.result.map((review, index) => {
         return (
           <div key={index} className="cardContainer">
-            <Card review={review} />
+            <Card review={review}/>
           </div>
           )
         })}
