@@ -45,12 +45,13 @@ class ShowPage extends React.Component {
       this.setState({ allReviews: this.renderReviews(this.bookReviews) });
       this.getRevDisplay();
       this.getReviews();
+      console.log("running comp did mount");
     } catch (err) {
       console.log(err);
     }
   }
 
-  replaceSpecialCharsInURL(str) {
+  replaceSpecialCharsInURL(uri) {
     const str = decodeURI(uri); 
     return str;
   }
@@ -63,14 +64,14 @@ class ShowPage extends React.Component {
             <SubheadSection heading="You might also like..." />
           </div>
           <div>
-            <CardDisplay result={this.state.allReviews} />
+            <CardDisplay result={this.state.allReviews} getReviews={this.showReviews}/>
           </div>
         </>
       )
     });
   };
 
-  getReviews = async () => {
+  getReviews = () => {
     let found = [];
     let searchTerm = window.location.href.split("/").pop();
     searchTerm = this.replaceSpecialCharsInURL(searchTerm);
