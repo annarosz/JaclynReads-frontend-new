@@ -64,14 +64,14 @@ class ShowPage extends React.Component {
             <SubheadSection heading="You might also like..." />
           </div>
           <div>
-            <CardDisplay result={this.state.allReviews} getReviews={this.showReviews}/>
+            <CardDisplay result={this.state.allReviews}/>
           </div>
         </>
       )
     });
   };
 
-  getReviews = () => {
+  getReviews = async () => {
     let found = [];
     let searchTerm = window.location.href.split("/").pop();
     searchTerm = this.replaceSpecialCharsInURL(searchTerm);
