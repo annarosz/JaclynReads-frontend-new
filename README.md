@@ -2,10 +2,6 @@ Robert De Matteo, Anna Roszko and Gaurav Pathak
 
 ## Live app link:
 
-## GitHub repository link:
-Backend link:  
-Frontend link: 
-
 ## Figma links:
 High-fidelity wireframes: https://www.figma.com/file/CxwRRn92Ly7DSMmDF9OxdH/BookApp_highFidelity?node-id=0%3A1
 
